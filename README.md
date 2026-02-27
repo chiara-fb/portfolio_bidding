@@ -1,10 +1,4 @@
-# Market Power
-
-This repository contains the reference implementation for the paper:
-
-> **Learning to exploit market power in electricity markets through portfolio-level bidding**  
-> Fusar Bassini C., Miskiw K.K., Maurer F., Donti P.L., and Kaack L.H.
-> Submitted to *EEM 2025*, Trondheim, Norway.  
+# Learning to exploit market power in electricity markets through portfolio-level bidding
 
 ---
 
@@ -12,8 +6,8 @@ This repository contains the reference implementation for the paper:
 
 This code uses the RL-strategy for an electricity portfolio operator as described in the paper, and includes:
 
-- A test scenario benchmarked against marginal cost bidding, MADRL, and bilevel optimization
-- A larger scenario representing a portfolio operator in the German market
+- A simplified market benchmarked against marginal cost bidding, MADRL, and bilevel optimization
+- A large-scale market representing the German market in 2019
 
 ---
 
@@ -32,4 +26,10 @@ This code uses the RL-strategy for an electricity portfolio operator as describe
 │   ├── market_power_index.py   # Indices to measure market power
 |   ├── paper_figures.py        # Generates paper figures
 └── README.md
+```
+---
+Reference to the paper:
 
+> **Learning to exploit market power in electricity markets through portfolio-level bidding**  
+> Fusar Bassini C., Miskiw K.K., Maurer F., Donti P.L., and Kaack L.H.
+> Submitted to *EEM 2025*, Trondheim, Norway.  
